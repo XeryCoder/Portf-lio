@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+}
+
+nav {
+  width: 500px;
+  align-items: center;
+  align-content: center;
+  margin-left: 905px;
+  height: 40px;
+  color: rgb(48, 141, 228);
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  font: 1em sans-serif;
+  font-weight: 500;
+  color: rgb(48, 141, 228);
+  padding-left: 35px;
+}
+
+.name{
+  margin-top: 15px;
+  margin-left: 10px;
+  color: rgb(253, 125, 105);
+  position: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(253, 125, 105);
+}
+
+nav ul li a:hover {
+  background-color: rgb(253, 125, 105);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.navbar {
+  background-color: transparent;
+  border-width: 2px;
+  border-color: rgb(187, 245, 243);
+  width: 100%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-style: none;
+  /*box-shadow: 0px 2px 4px grey;*/
+  /*background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 141, 228));*/
+}
+
+.container{
+  width: 100%;
+  height: 464px;
+  /*background-image: url(portfolio\ capa9.jpg);*/
+  background-position: 850px 70px;
+  background-repeat: no-repeat;
+  background-image: url(Operating\ system\(2\).gif);
+  margin-top: 20px;
+}
+
+.container1{
+  width: 100%;
+  height: 300px;
+  /*background-image: url(portfolio\ capa9.jpg);
+  background-position: 700px 0;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 40px;
+}
+
+
+.perfil{
+  grid-template-columns: 1/2;
+}
+
+
+.perfil1{
+  width: 180px;
+  height: 180px;
+  background-image: url(myPhoto_capa2.png);
+  border-radius: 180px;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.h4{
+  margin-left: 120px;
+  color: rgb(56, 55, 55);
+}
+
+.texto{
+  margin-top: 35px;
+  grid-template-columns: 2/4;
+  height: 480px;
+}
+
+button{
+  background-color: white;
+  color: rgb(202, 70, 50);
+  box-shadow: 0px 2px 4px rgb(202, 70, 50);
+  width: 110px;
+  height: 28px;
+  border-radius: 7px;
+  font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+}
+
+button:hover{
+  background-color: rgb(255, 158, 144);
+  color: rgb(202, 70, 50);
+}
+/*p{
+  font: 0.9em sans-serif;
+}*/
+
+
+
+h2{
+  color: rgb(56, 55, 55);
+  font-weight: 700;
+}
+h1{
+  color: rgb(202, 70, 50);
+  font-weight: 700;
+}
+
+.p{
+  color: rgb(56, 55, 55);
+font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+}
+
+
+#section{
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.section1{
+  width: 80%;
+  height: auto;
+  margin: 20px auto 0 auto;
+  
+  background-color: rgb(255, 255, 255);
+  grid-template-columns: 1fr 3fr;
+  display: grid;
+}
+
+
+
+
+h3{
+  text-align: right;
+  margin-right: 40px;
+  padding-top: 100px;
+  color: rgb(87, 82, 82);
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 35px;
+}
+.web, .desktop, .outros{
+  width: 80%;
+  display: grid;
+  grid-column: 1/4;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 65px;
+}
+
+
+
+span{
+  border-color: rgb(236, 230, 230);
+  border-style: ridge;
+  border-width: 1px;
+  transition-property: height;
+  transition-duration: 2s;
+}
+
+
+span:hover {
+  box-shadow: 0px 5px 4px rgb(202, 70, 50);
+  height: auto;
+  display: block;
+}
+
+.descricao1{
+  margin-left: 5px;
+}
+
+
+#skill1{
+  margin: 70px auto 0 auto;
+}
+
+#skills{
+  display: grid;
+  width: 80%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 35px;
+  margin: 0 auto 0 auto;
+}
+
+.skills2{
+  border-color: rgb(236, 230, 230);
+  border-style: ridge;
+  border-width: 1px;
+}
+
+.skills2:hover{
+  box-shadow: 0px 5px 4px rgb(202, 70, 50);
+  height: auto;
+  display: block;
+}
+
+#progressbar {
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px;
+  border-color: rgb(236, 230, 230);
+  border-style: ridge;
+  border-width: 1px;
+}
+
+#progressbar>div {
+  background-color: rgb(255, 158, 144);
+  width: 80%;
+  height: 5px;
+  border-radius: 10px;
+}
+
+#progressbar1 {
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px;
+  border-color: rgb(236, 230, 230);
+  border-style: ridge;
+  border-width: 1px;
+}
+
+#progressbar1>div {
+  background-color: rgb(255, 158, 144);
+  width: 75%;
+  height: 5px;
+  border-radius: 10px;
+}
+
+#progressbar2 {
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px;
+  border-color: rgb(236, 230, 230);
+  border-style: ridge;
+  border-width: 1px;
+}
+
+#progressbar2>div {
+  background-color: rgb(255, 158, 144);
+  width: 95%;
+  height: 5px;
+  border-radius: 10px;
+}
+
+#progressbar3 {
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px;
+  border-color: rgb(236, 230, 230);
+  border-style: ridge;
+  border-width: 1px;
+}
+
+#progressbar3>div {
+  background-color: rgb(255, 158, 144);
+  width: 90%;
+  height: 5px;
+  border-radius: 10px;
+}
+
+#progressbar4 {
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px;
+  border-color: rgb(236, 230, 230);
+  border-style: ridge;
+  border-width: 1px;
+}
+
+#progressbar4>div {
+  background-color: rgb(255, 158, 144);
+  width: 50%;
+  height: 5px;
+  border-radius: 10px;
+}
+
+#progressbar5 {
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px;
+  border-color: rgb(236, 230, 230);
+  border-style: ridge;
+  border-width: 1px;
+}
+
+#progressbar5>div {
+  background-color: rgb(255, 158, 144);
+  width: 80%;
+  height: 5px;
+  border-radius: 10px;
+}
+
+
+li{
+  padding: 10px;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  color: white;
+  background-color: rgb(18, 13, 51);
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.footers{
+  padding-left: 50px;
+}
+
+.insta{
+  padding-left: 20px;
+}
+
+.mail{
+  padding-left: 20px;
+}
